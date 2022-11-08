@@ -1,0 +1,126 @@
+header {
+    background-image: linear-gradient(#444, #fff); 
+    border: solid black 2px;
+}
+
+.logo {
+    width: 100px;
+    position: relative;
+    top: 30px;
+    left: 95px;
+}
+
+.logo2 {
+    width: 100px;
+    position: relative;
+    left: 230px;
+    top: -30px;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 550px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 65px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #222;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    opacity: 70%;
+    text-decoration: underline;
+}
+
+#dg {
+    font-size: 50px;
+    position: relative;
+    top: 60px;
+    left: 670px;
+    text-decoration: underline;
+    color: black;
+}
+
+.text2 {
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    top: 200px;
+    left: 20px;
+}
+
+.text2 p {
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    top:150px;
+    left: 200px;
+    
+}
+
+.text2 h2 {
+    font-size: 40px;
+    position: relative;
+    top:150px;
+    left: 280px;
+    
+}
+
+.text2 h3 {
+    font-size: 30px;
+    position: relative;
+    top:150px;
+    left: 280px;
+    
+}
+
+#hdc {
+    font-size: 50px;
+    position: relative;
+    top: 180px;
+    left: 670px;
+    text-decoration: underline;
+    color: black;
+}
+
+.mapa {
+    width: 900px;
+    position: relative;
+    top: 200px;
+    left: 450px;
+    border: solid black 4px;
+    border-radius: 20px;
+}
+
+#legenda {
+    width: 900px;
+    position: relative;
+    top: 200px;
+    left: 450px;
+    padding: 0 0 200px 0;
+}
+
+#dg {
+    font-size: 50px;
+    position: absolute;
+    top: 200px;
+    left: 470px;
+    text-decoration: underline;
+    color: black;
+    padding: 0 0 200px 0;
+}
+
+#dg:hover {
+    transition: 1s;
+    opacity: 30%;
+    text-decoration: none;
+}

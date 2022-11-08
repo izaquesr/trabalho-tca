@@ -1,0 +1,98 @@
+header {
+    background-image: linear-gradient(#444, #fff); 
+    border: solid black 2px;
+}
+
+.logo {
+    width: 100px;
+    position: relative;
+    top: 30px;
+    left: 95px;
+}
+
+.logo2 {
+    width: 100px;
+    position: relative;
+    left: 230px;
+    top: -30px;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 550px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 65px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #222;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    opacity: 70%;
+    text-decoration: underline;
+}
+
+#int {
+    font-size: 50px;
+    position: relative;
+    top: -100px;
+    left: 790px;
+    text-decoration: underline;
+}
+
+#dg {
+    font-size: 50px;
+    position: absolute;
+    top: 200px;
+    left: 670px;
+    text-decoration: underline;
+    color: black;
+    padding: 0 0 200px 0;
+}
+
+#dg:hover {
+    transition: 1s;
+    opacity: 30%;
+    text-decoration: none;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    top: 200px;
+    left: 20px;
+}
+
+.text p {
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    top: 50px;
+    left: 300px;
+} 
+
+.text2 {
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    top: 200px;
+    left: 20px;
+}
+
+.text2 p {
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    top:650px;
+    left: 300px;
+}
