@@ -41,16 +41,24 @@ nav a:hover {
     text-decoration: underline;
 }
 
-#dg {
+#fas {
     font-size: 50px;
-    position: absolute;
-    top: 350px;
-    left: 470px;
+    position: relative;
+    top: 220px;
+    left: 630px;
     text-decoration: underline;
-    color: black;
 }
 
-.text2 {
+.img {
+    width: 900px;
+    position: relative;
+    top: 120px;
+    left: 400px;
+    border: black solid 4px;
+    border-radius: 16px;
+}
+
+.text {
     font-weight: bold;
     font-size: 25px;
     position: relative;
@@ -58,60 +66,35 @@ nav a:hover {
     left: 20px;
 }
 
-.text2 p {
+.text p {
     font-weight: bold;
     font-size: 25px;
     position: relative;
     top:150px;
-    left: 200px;
-    
+    left: 160px;
 }
 
-.text2 h2 {
-    font-size: 40px;
+.mt1 {
+    width: 400px;
     position: relative;
-    top:150px;
-    left: 280px;
-    
+    top: 160px;
+    left: 500px;
 }
 
-.text2 h3 {
-    font-size: 30px;
+.mt2 {
+    width: 300px;
     position: relative;
-    top:150px;
-    left: 280px;
-    
+    top: 160px;
+    left: 400px;
 }
 
-.img {
-    width: 900px;
+.text h1 {
+    font-weight: bold;
     position: relative;
-    top: 200px;
-    left: 450px;
-    border: solid black 4px;
-    border-radius: 20px;
+    top:180px;
+    left: 380px;   
 }
 
-#legenda {
-    width: 900px;
-    position: relative;
-    top: 200px;
-    left: 490px;
-    padding: 0 0 200px 0;
-}
-
-#dg2 {
-    font-size: 50px;
-    position: absolute;
-    top: 2250px;
-    left: 470px;
-    text-decoration: underline;
-    color: black;
-    padding: 0 0 200px 0;
-}
-
-#dg2:hover { 
-    opacity: 50%;
-    text-decoration: none;
-    transition: 1s;
+#nd {
+    padding: 0 0 150px 0;
 }

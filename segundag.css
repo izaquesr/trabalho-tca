@@ -41,16 +41,15 @@ nav a:hover {
     text-decoration: underline;
 }
 
-#dg {
+#fas {
     font-size: 50px;
-    position: absolute;
-    top: 350px;
-    left: 470px;
+    position: relative;
+    top: 240px;
+    left: 580px;
     text-decoration: underline;
-    color: black;
 }
 
-.text2 {
+.text {
     font-weight: bold;
     font-size: 25px;
     position: relative;
@@ -58,60 +57,58 @@ nav a:hover {
     left: 20px;
 }
 
-.text2 p {
+.text p {
     font-weight: bold;
     font-size: 25px;
     position: relative;
     top:150px;
-    left: 200px;
+    left: 160px;
     
 }
 
-.text2 h2 {
-    font-size: 40px;
+.text h1 {
+    font-size: 50px;
     position: relative;
     top:150px;
-    left: 280px;
-    
-}
-
-.text2 h3 {
-    font-size: 30px;
-    position: relative;
-    top:150px;
-    left: 280px;
-    
+    left: 400px;
+    text-decoration: underline;
 }
 
 .img {
     width: 900px;
     position: relative;
-    top: 200px;
-    left: 450px;
-    border: solid black 4px;
-    border-radius: 20px;
+    top:250px;
+    left: 400px;
+    padding: 0 0 150px 0;
 }
 
-#legenda {
+.img2 {
     width: 900px;
     position: relative;
-    top: 200px;
-    left: 490px;
-    padding: 0 0 200px 0;
+    top:250px;
+    left: 400px;
+    padding: 0 0 150px 0;
+}
+
+.text3 h1 {
+    font-weight: bold;
+    position: relative;
+    top:150px;
+    left: 200px;   
 }
 
 #dg2 {
-    font-size: 50px;
+    font-size: 55px;
     position: absolute;
-    top: 2250px;
-    left: 470px;
+    top: 70px;
+    left: 340px;
     text-decoration: underline;
     color: black;
-    padding: 0 0 200px 0;
+    padding: 0 0 150px 0;
 }
 
-#dg2:hover { 
-    opacity: 50%;
-    text-decoration: none;
+#dg2:hover {
     transition: 1s;
+    opacity: 30%;
+    text-decoration: none;
 }

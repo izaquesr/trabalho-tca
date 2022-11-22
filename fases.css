@@ -41,13 +41,37 @@ nav a:hover {
     text-decoration: underline;
 }
 
-#dg {
+#fas {
     font-size: 50px;
-    position: absolute;
-    top: 350px;
-    left: 470px;
+    position: relative;
+    top: 240px;
+    left: 580px;
     text-decoration: underline;
-    color: black;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    top: 200px;
+    left: 20px;
+}
+
+.text p {
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    top:150px;
+    left: 200px;
+    
+}
+
+.text h1 {
+    font-weight: bold;
+    position: relative;
+    top:150px;
+    left: 200px;
+    
 }
 
 .text2 {
@@ -62,56 +86,49 @@ nav a:hover {
     font-weight: bold;
     font-size: 25px;
     position: relative;
+    top:550px;
+    left: 200px;
+    padding: 0 0 150px 0;
+    
+}
+
+.text2 h1 {
+    font-weight: bold;
+    position: relative;
     top:150px;
     left: 200px;
     
 }
 
-.text2 h2 {
-    font-size: 40px;
+#dg {
+    font-size: 50px;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    text-decoration: underline;
+    color: black;
+}
+
+.text3 h1 {
+    font-weight: bold;
     position: relative;
     top:150px;
-    left: 280px;
+    left: 200px;
     
-}
-
-.text2 h3 {
-    font-size: 30px;
-    position: relative;
-    top:150px;
-    left: 280px;
-    
-}
-
-.img {
-    width: 900px;
-    position: relative;
-    top: 200px;
-    left: 450px;
-    border: solid black 4px;
-    border-radius: 20px;
-}
-
-#legenda {
-    width: 900px;
-    position: relative;
-    top: 200px;
-    left: 490px;
-    padding: 0 0 200px 0;
 }
 
 #dg2 {
     font-size: 50px;
     position: absolute;
-    top: 2250px;
-    left: 470px;
+    top: 550px;
+    left: 300px;
     text-decoration: underline;
     color: black;
-    padding: 0 0 200px 0;
+    padding: 0 0 150px 0;
 }
 
-#dg2:hover { 
-    opacity: 50%;
-    text-decoration: none;
+#dg2:hover {
     transition: 1s;
+    opacity: 30%;
+    text-decoration: none;
 }
