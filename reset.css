@@ -23,6 +23,20 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+*,a,input,summary,li{
+	font-family: 'Roboto', sans-serif;
+
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+body{
+	height: 100vh;
+  width: 100%;
+	display: flex;
+  flex-direction: column;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
