@@ -1,26 +1,26 @@
+body {
+    background-color: rgb(138, 138, 138);
+}
+
 header {
-    background-image: linear-gradient(#444, #fff); 
-    border: solid black 2px;
+    background-color: #fff; 
 }
 
 .logo {
     width: 100px;
     position: relative;
-    top: 30px;
+    top: 50px;
     left: 95px;
 }
 
-.logo2 {
-    width: 100px;
+.navegacao {
     position: relative;
-    left: 230px;
-    top: -30px;
 }
 
 nav {
-    position: absolute;
-    top: 50px;
-    right: 550px;
+    position: relative;
+    top: -100px;
+    text-align: center;
 }
 
 nav li {
@@ -90,11 +90,11 @@ nav a:hover {
     padding: 0 0 150px 0;
 }
 
-.text3 h1 {
+.text3 {
     font-weight: bold;
     position: relative;
-    top:150px;
-    left: 200px;   
+    top:350px;
+    left: 300px;   
 }
 
 #dg2 {
@@ -111,4 +111,22 @@ nav a:hover {
     transition: 1s;
     opacity: 30%;
     text-decoration: none;
+}
+
+footer {
+    position: relative;
+    top: 650px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+footer img {
+    width: 200px;
+}
+
+.copyright {
+    color: #000;
+    font-size: 20px;
+    margin: 20px 0 0;
 }

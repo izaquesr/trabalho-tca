@@ -1,26 +1,26 @@
+body {
+    background-color: rgb(138, 138, 138);
+}
+
 header {
-    background-image: linear-gradient(#444, #fff); 
-    border: solid black 2px;
+    background-color: #fff; 
 }
 
 .logo {
     width: 100px;
     position: relative;
-    top: 30px;
+    top: 50px;
     left: 95px;
 }
 
-.logo2 {
-    width: 100px;
+.navegacao {
     position: relative;
-    left: 230px;
-    top: -30px;
 }
 
 nav {
-    position: absolute;
-    top: 50px;
-    right: 550px;
+    position: relative;
+    top: -100px;
+    text-align: center;
 }
 
 nav li {
@@ -96,5 +96,39 @@ nav a:hover {
 }
 
 #nd {
-    padding: 0 0 150px 0;
+    padding: 0 0 350px 0;
+}
+
+#dg {
+    font-size: 50px;
+    position: absolute;
+    top: 2800px;
+    left: 760px;
+    text-decoration: underline;
+    color: black;
+    padding: 0 0 200px 0;
+}
+
+#dg:hover {
+    transition: 1s;
+    opacity: 30%;
+    text-decoration: none;
+}
+
+footer {
+    position: relative;
+    top: 250px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+footer img {
+    width: 200px;
+}
+
+.copyright {
+    color: #000;
+    font-size: 20px;
+    margin: 20px 0 0;
 }

@@ -41,21 +41,51 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.participantes {
+#int {
+    font-size: 50px;
     position: relative;
-    top: 150px;
-    left: 600px;
-    font-size: 30px;
-    font-style: bolder;
+    top: -100px;
+    text-align: center;
+    text-decoration: underline;
 }
 
-.participantes i {
+
+
+.text {
     font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    top: 200px;
+    left: 20px;
+}
+
+.text p {
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    top: 50px;
+    left: 300px;
+} 
+
+#dg2 {
+    font-size: 50px;
+    position: relative;
+    top: 370px;
+    left: 850px;
+    text-decoration: underline;
+    color: black;
+    padding: 0 0 200px 0;
+}
+
+#dg2:hover {
+    transition: 1s;
+    opacity: 30%;
+    text-decoration: none;
 }
 
 footer {
     position: relative;
-    top: 250px;
+    top: 550px;
     text-align: center;
     background-color: #fff;
     padding: 20px 0;
@@ -68,5 +98,5 @@ footer img {
 .copyright {
     color: #000;
     font-size: 20px;
-    margin: 20px 0 0;
+    margin: 0px 0 0;
 }
